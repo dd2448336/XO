@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiXO", "apiXO\apiXO.csproj", "{2B275F4E-EF57-4536-AEBD-568C1B9D4B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B275F4E-EF57-4536-AEBD-568C1B9D4B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B275F4E-EF57-4536-AEBD-568C1B9D4B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B275F4E-EF57-4536-AEBD-568C1B9D4B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B275F4E-EF57-4536-AEBD-568C1B9D4B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {329FBD8B-7E48-42AE-A2F2-8DD6DDC7E8D5}
+	EndGlobalSection
+EndGlobal
