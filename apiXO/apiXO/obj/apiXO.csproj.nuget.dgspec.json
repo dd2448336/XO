@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dd24\\source\\repos\\apiXO\\apiXO\\apiXO.csproj": {}
+    "C:\\Users\\dd24\\source\\repos\\NewRepo\\apiXO\\apiXO\\apiXO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dd24\\source\\repos\\apiXO\\apiXO\\apiXO.csproj": {
+    "C:\\Users\\dd24\\source\\repos\\NewRepo\\apiXO\\apiXO\\apiXO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dd24\\source\\repos\\apiXO\\apiXO\\apiXO.csproj",
+        "projectUniqueName": "C:\\Users\\dd24\\source\\repos\\NewRepo\\apiXO\\apiXO\\apiXO.csproj",
         "projectName": "apiXO",
-        "projectPath": "C:\\Users\\dd24\\source\\repos\\apiXO\\apiXO\\apiXO.csproj",
+        "projectPath": "C:\\Users\\dd24\\source\\repos\\NewRepo\\apiXO\\apiXO\\apiXO.csproj",
         "packagesPath": "C:\\Users\\dd24\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dd24\\source\\repos\\apiXO\\apiXO\\obj\\",
+        "outputPath": "C:\\Users\\dd24\\source\\repos\\NewRepo\\apiXO\\apiXO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

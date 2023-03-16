@@ -99,24 +99,24 @@ app.MapGet("/session", (string name, string pas, string uid) =>
     return sess;
 });
 
-app.MapGet("/sessbid", (string name, string pas, string sid) =>
-{
-    Sess? sess = new Sess();
-    if (PseudoGame.Autorization(name, pas) != null)
-        sess = PseudoGame.GetSessionByTD(Convert.ToInt32(sid));
-    else
-        sess.Error = "Имя или пароль польователя неверны";
-    return sess;
-});
-
-app.MapGet("/alses", (string name, string pas) =>
-{
-    List<Sess> sess = new List<Sess>();
-    if (PseudoGame.Autorization(name, pas) != null)
-        sess = PseudoGame.GetAll();
-    else
-        sess.Add(new Sess() { Error = "Имя или пароль польователя неверны" });
-    return sess;
-});
+//app.MapGet("/sessbid", (string name, string pas, string sid) =>
+//{
+//    Sess? sess = new Sess();
+//    if (PseudoGame.Autorization(name, pas) != null)
+//        sess = PseudoGame.GetSessionByTD(Convert.ToInt32(sid));
+//    else
+//        sess.Error = "Имя или пароль польователя неверны";
+//    return sess;
+//});
+//
+//app.MapGet("/alses", (string name, string pas) =>
+//{
+//    List<Sess> sess = new List<Sess>();
+//    if (PseudoGame.Autorization(name, pas) != null)
+//        sess = PseudoGame.GetAll();
+//    else
+//        sess.Add(new Sess() { Error = "Имя или пароль польователя неверны" });
+//    return sess;
+//});
 
 app.Run();
