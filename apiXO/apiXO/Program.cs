@@ -19,14 +19,14 @@ app.MapGet("/gettusers", (string name, string pas, string online) =>
 
 });
 
-app.MapGet("/reg", (string name, string pass) =>
+app.MapGet("/reg", (string name, string pas) =>
 {
-    return PseudoGame.Registration(name, pass);
+    return PseudoGame.Registration(name, pas);
 });
 
-app.MapGet("/auth", (string name, string pass) =>
+app.MapGet("/auth", (string name, string pas) =>
 {
-    return PseudoGame.Autorization(name, pass);
+    return PseudoGame.Autorization(name, pas);
 });  
 
 app.MapGet("/zayavka", (string name, string pas, string tus) =>
