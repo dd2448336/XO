@@ -8,12 +8,23 @@ PseudoGame.Initial();
 
 app.MapGet("/reg", (string name, string pas) =>
 {
-    return PseudoGame.Registration(name, pas);
+    User user;
+    if(!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace( pas))
+        user = PseudoGame.Registration(name, pas);
+    else
+        user = new User() { Error= "Недопустимые параметры"};
+    return user;
 });
 
 app.MapGet("/auth", (string name, string pas) =>
 {
-    return PseudoGame.Autorization(name, pas);
+    User user;
+    if(!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace( pas))
+        user = PseudoGame.Autorization(name, pas);
+    else
+        user = new User() { Error= "Недопустимые параметры"};
+
+    return user;
 });  
 
 app.MapGet("/gettusers", (string name, string pas, string online) =>
